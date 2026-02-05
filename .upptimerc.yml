@@ -1,6 +1,4 @@
 # ClearBounce Status Page Configuration
-# Documentation: https://upptime.js.org/docs/configuration
-
 owner: tlgcklr
 repo: clearbounce-status-
 
@@ -20,7 +18,7 @@ sites:
     url: https://www.clearbounce.net/api/v1/health
     expectedStatusCodes:
       - 200
-      - 404  # Health endpoint yoksa 404 kabul et
+      - 404
 
   - name: Shield Widget
     url: https://www.clearbounce.net/shield/widget.js
@@ -29,11 +27,13 @@ sites:
 
 # Status page settings
 status-website:
-  cname: status.clearbounce.net  # Custom domain
+  cname: status.clearbounce.net
   logoUrl: https://www.clearbounce.net/logo.png
+  favicon: https://www.clearbounce.net/favicon.ico
   name: ClearBounce Status
-  introTitle: "**ClearBounce** sistem durumu"
-  introMessage: Tüm servislerimizin gerçek zamanlı durumunu buradan takip edebilirsiniz.
+  theme: dark
+  introTitle: "**ClearBounce** Sistem Durumu"
+  introMessage: Tüm servislerimizin gerçek zamanlı durumunu buradan takip edebilirsiniz. Herhangi bir sorun olduğunda bu sayfa otomatik olarak güncellenir.
   navbar:
     - title: Ana Sayfa
       href: https://www.clearbounce.net
@@ -42,23 +42,46 @@ status-website:
     - title: API Docs
       href: https://www.clearbounce.net/docs
 
-# Incident labels
+# Turkish translations
 i18n:
   activeIncidents: Aktif Sorunlar
   pastIncidents: Geçmiş Sorunlar
+  pastIncidentsResolved: Çözülen Sorunlar
   allSystemsOperational: Tüm sistemler çalışıyor
   incidentReport: Olay raporu →
+  incidentFixed: Düzeltildi
+  incidentOngoing: Devam ediyor
+  incidentScheduled: Planlı bakım
+  incidentDetails: Detaylar
+  uptimeHistory: Çalışma süresi geçmişi
+  responseTimeHistory: Yanıt süresi geçmişi
+  up: Çalışıyor
+  down: Çalışmıyor
+  degraded: Yavaş
+  ms: ms
+  loading: Yükleniyor
+  liveStatus: Canlı durum
+  overallUptime: Genel çalışma süresi
+  responseTime: Yanıt süresi
+  averageResponseTime: Ortalama yanıt süresi
+  day: Gün
+  days: Gün
+  hour: Saat
+  hours: Saat
+  minute: Dakika
+  minutes: Dakika
+  second: Saniye
+  seconds: Saniye
+  navHome: Ana Sayfa
+  navGitHub: GitHub
+  navStatus: Durum
+  footer: "Bu sayfa [Upptime](https://upptime.js.org) ile oluşturulmuştur."
 
-# Check frequency (every 5 minutes)
+# Check frequency
 workflowSchedule:
-  graphs: "0 0 * * *"      # Daily graphs
-  responseTime: "0 23 * * *" # Daily response time
-  staticSite: "0 1 * * *"   # Daily site rebuild
-  summary: "0 0 * * *"      # Daily summary
-  updateTemplate: "0 0 1 * *" # Monthly template update
-  uptime: "*/5 * * * *"     # Every 5 minutes uptime check
-
-# Notifications (optional - later)
-# notifications:
-#   - type: email
-#     address: alerts@clearbounce.net
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 1 * *"
+  uptime: "*/5 * * * *"
