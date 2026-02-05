@@ -1,0 +1,61 @@
+# ClearBounce Status Page Configuration
+# Documentation: https://upptime.js.org/docs/configuration
+
+owner: tolgacakir # GitHub username - DEĞİŞTİR
+repo: clearbounce-status # Repository name
+
+# Monitored sites
+sites:
+  - name: Website
+    url: https://www.clearbounce.net
+    icon: https://www.clearbounce.net/favicon.ico
+
+  - name: Dashboard
+    url: https://www.clearbounce.net/dashboard/
+
+  - name: API
+    url: https://www.clearbounce.net/api/v1/health
+    expectedStatusCodes:
+      - 200
+      - 404  # Health endpoint yoksa 404 kabul et
+
+  - name: Shield Widget
+    url: https://www.clearbounce.net/shield/widget.js
+    expectedStatusCodes:
+      - 200
+
+# Status page settings
+status-website:
+  cname: status.clearbounce.net  # Custom domain
+  logoUrl: https://www.clearbounce.net/logo.png
+  name: ClearBounce Status
+  introTitle: "**ClearBounce** sistem durumu"
+  introMessage: Tüm servislerimizin gerçek zamanlı durumunu buradan takip edebilirsiniz.
+  navbar:
+    - title: Ana Sayfa
+      href: https://www.clearbounce.net
+    - title: Dashboard
+      href: https://www.clearbounce.net/dashboard
+    - title: API Docs
+      href: https://www.clearbounce.net/docs
+
+# Incident labels
+i18n:
+  activeIncidents: Aktif Sorunlar
+  pastIncidents: Geçmiş Sorunlar
+  allSystemsOperational: Tüm sistemler çalışıyor
+  incidentReport: Olay raporu →
+
+# Check frequency (every 5 minutes)
+workflowSchedule:
+  graphs: "0 0 * * *"      # Daily graphs
+  responseTime: "0 23 * * *" # Daily response time
+  staticSite: "0 1 * * *"   # Daily site rebuild
+  summary: "0 0 * * *"      # Daily summary
+  updateTemplate: "0 0 1 * *" # Monthly template update
+  uptime: "*/5 * * * *"     # Every 5 minutes uptime check
+
+# Notifications (optional - later)
+# notifications:
+#   - type: email
+#     address: alerts@clearbounce.net
