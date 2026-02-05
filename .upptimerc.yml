@@ -12,6 +12,9 @@ sites:
 
   - name: Dashboard
     url: https://www.clearbounce.net/dashboard/
+    expectedStatusCodes:
+      - 200
+      - 403
 
   - name: API
     url: https://www.clearbounce.net/api/v1/health
