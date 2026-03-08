@@ -1,7 +1,7 @@
 url: https://www.clearbounce.net/api/v1/health
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2026-03-08T15:52:18.251Z
+status: up
+code: 200
+responseTime: 186
+lastUpdated: 2026-03-08T17:31:19.902Z
 startTime: 2026-02-05T16:36:12.380Z
 generator: Upptime <https://github.com/upptime/upptime>
