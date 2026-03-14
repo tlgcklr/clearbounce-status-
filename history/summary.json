@@ -4,19 +4,19 @@
     "url": "https://www.clearbounce.net",
     "icon": "https://www.clearbounce.net/favicon.ico",
     "slug": "website",
-    "status": "up",
-    "uptime": "88.73%",
-    "uptimeDay": "89.41%",
-    "uptimeWeek": "81.96%",
-    "uptimeMonth": "88.81%",
-    "uptimeYear": "88.73%",
+    "status": "down",
+    "uptime": "88.79%",
+    "uptimeDay": "89.30%",
+    "uptimeWeek": "81.95%",
+    "uptimeMonth": "88.85%",
+    "uptimeYear": "88.79%",
     "time": 1175,
     "timeDay": 1137,
     "timeWeek": 1490,
-    "timeMonth": 1271,
+    "timeMonth": 1275,
     "timeYear": 1175,
     "dailyMinutesDown": {
-      "2026-03-14": 126,
+      "2026-03-14": 128,
       "2026-03-13": 263,
       "2026-03-12": 204,
       "2026-03-11": 520,
@@ -48,7 +48,7 @@
       "2026-02-11": 200,
       "2026-02-10": 102,
       "2026-02-09": 241,
-      "2026-02-08": 58
+      "2026-02-08": 39
     }
   },
   {
@@ -56,19 +56,19 @@
     "url": "https://www.clearbounce.net/dashboard/",
     "icon": "https://icons.duckduckgo.com/ip3/www.clearbounce.net.ico",
     "slug": "dashboard",
-    "status": "up",
-    "uptime": "88.79%",
-    "uptimeDay": "89.54%",
-    "uptimeWeek": "82.10%",
-    "uptimeMonth": "88.90%",
-    "uptimeYear": "88.79%",
+    "status": "down",
+    "uptime": "88.88%",
+    "uptimeDay": "89.46%",
+    "uptimeWeek": "82.09%",
+    "uptimeMonth": "88.94%",
+    "uptimeYear": "88.88%",
     "time": 184,
     "timeDay": 193,
     "timeWeek": 234,
-    "timeMonth": 203,
+    "timeMonth": 204,
     "timeYear": 184,
     "dailyMinutesDown": {
-      "2026-03-14": 125,
+      "2026-03-14": 126,
       "2026-03-13": 262,
       "2026-03-12": 202,
       "2026-03-11": 517,
@@ -100,7 +100,7 @@
       "2026-02-11": 199,
       "2026-02-10": 102,
       "2026-02-09": 240,
-      "2026-02-08": 70
+      "2026-02-08": 41
     }
   },
   {
@@ -108,19 +108,19 @@
     "url": "https://www.clearbounce.net/api/v1/health",
     "icon": "https://icons.duckduckgo.com/ip3/www.clearbounce.net.ico",
     "slug": "api",
-    "status": "up",
-    "uptime": "88.88%",
-    "uptimeDay": "89.68%",
+    "status": "down",
+    "uptime": "88.97%",
+    "uptimeDay": "89.63%",
     "uptimeWeek": "82.23%",
-    "uptimeMonth": "88.99%",
-    "uptimeYear": "88.88%",
+    "uptimeMonth": "89.03%",
+    "uptimeYear": "88.97%",
     "time": 181,
     "timeDay": 191,
     "timeWeek": 233,
-    "timeMonth": 202,
+    "timeMonth": 203,
     "timeYear": 181,
     "dailyMinutesDown": {
-      "2026-03-14": 123,
+      "2026-03-14": 124,
       "2026-03-13": 260,
       "2026-03-12": 201,
       "2026-03-11": 516,
@@ -152,7 +152,7 @@
       "2026-02-11": 197,
       "2026-02-10": 101,
       "2026-02-09": 239,
-      "2026-02-08": 68
+      "2026-02-08": 40
     }
   },
   {
@@ -160,16 +160,16 @@
     "url": "https://www.clearbounce.net/shield/widget.js",
     "icon": "https://icons.duckduckgo.com/ip3/www.clearbounce.net.ico",
     "slug": "shield-widget",
-    "status": "up",
-    "uptime": "88.91%",
-    "uptimeDay": "89.81%",
+    "status": "down",
+    "uptime": "89.04%",
+    "uptimeDay": "89.80%",
     "uptimeWeek": "82.37%",
-    "uptimeMonth": "89.12%",
-    "uptimeYear": "88.91%",
+    "uptimeMonth": "89.15%",
+    "uptimeYear": "89.04%",
     "time": 244,
     "timeDay": 264,
     "timeWeek": 329,
-    "timeMonth": 243,
+    "timeMonth": 244,
     "timeYear": 244,
     "dailyMinutesDown": {
       "2026-03-14": 122,
@@ -204,7 +204,7 @@
       "2026-02-11": 196,
       "2026-02-10": 101,
       "2026-02-09": 237,
-      "2026-02-08": 117
+      "2026-02-08": 67
     }
   }
 ]
